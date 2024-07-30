@@ -40,7 +40,7 @@ public class FirstCode {
 		FileUtils.copyFile(screenshot, destination);
 		
 	}
-	
+	//added code in eclipse
 	@AfterMethod
 	public void tearDown()
 	{
