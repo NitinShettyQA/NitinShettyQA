@@ -1,0 +1,25 @@
+<suite name="mySuite">
+	<parameter name="Browser" value="chrome"></parameter>
+	<parameter name="url" value="https://www.google.com"></parameter>
+	<test name="myTest">
+		<group>
+			<run>
+				<include name="gp"/>>
+			</run>
+		</group>
+		<classes>
+			<class name="Demo2.java"/>
+		</classes>
+	</test>
+	
+	<test name="myTest1">
+		<group>
+			<run>
+				<include name="gp"/>>
+			</run>
+		</group>
+		<classes>
+			<class name="Demo2.java"/>
+		</classes>
+	</test>
+</suite>
