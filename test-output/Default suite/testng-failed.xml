@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FirstCode">
+      <class name="ExcelReadWrite">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="test1"/>
+          <include name="excelOperations"/>
         </methods>
-      </class> <!-- FirstCode -->
+      </class> <!-- ExcelReadWrite -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
