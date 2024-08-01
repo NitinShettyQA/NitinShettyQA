@@ -25,7 +25,7 @@ public class ExcelReadWrite {
 			FileInputStream file=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\ExcelOperations.xlsx");
 			XSSFWorkbook workbook=new XSSFWorkbook(file);
 			
-			XSSFSheet  sheet=workbook.getSheet("Sheet1");  
+			XSSFSheet  sheet=workbook.getSheet("Sheet1"); 
 			
 			int totalRows=sheet.getLastRowNum();
 			
