@@ -22,6 +22,7 @@ public class ExcelReadWrite {
 	public void excelOperations() throws IOException
 	{
 		try {
+			//Make sure to get excel from project directory always
 			FileInputStream file=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\ExcelOperations.xlsx");
 			XSSFWorkbook workbook=new XSSFWorkbook(file);
 			
