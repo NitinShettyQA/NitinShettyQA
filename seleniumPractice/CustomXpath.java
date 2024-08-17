@@ -13,6 +13,7 @@ public class CustomXpath {
 
 	public static void main(String[] args) throws InterruptedException {
 
+		
 		System.setProperty("webdriver.chrome.driver", "/Users/NaveenKhunteta/Downloads/chromedriver");
 		WebDriver driver = new ChromeDriver();
 
