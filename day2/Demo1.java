@@ -21,18 +21,19 @@ while(result.next())
 	System.out.println(userName);
 }
 }
- String mainWindow = driver.getwindowHandle();
- Set<String> allWindoHandles = driver.getwindowHandles();
+   String mainWindow = driver.getwindowHandle();
+   Set<String> allWindoHandles = driver.getwindowHandles();
  
  for(String handle: allWindoHandles)
  {
 	 if(!handle.equals(mainWindow))
 	 {
 		 //perform operations
-		 driver.close;
+		 driver.close();
 	 }
  }
+}
+
  
 
 
-}
