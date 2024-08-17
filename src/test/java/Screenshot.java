@@ -23,6 +23,7 @@ public class Screenshot {
 	public void setUp()
 	{
 		//Adding comment
+		//updated the comment and pushing into local branch
 		driver= new EdgeDriver();
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
