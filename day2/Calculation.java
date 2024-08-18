@@ -1,12 +1,12 @@
 public class Calculation {
     public static void main(String[] args) {
-        int capital=100000;
+        int capital=20000;
         int qty=25;
         int profitPointsMonthly=1000;
-        int n=12;
+        int n=1;
         long profit = 0;
         int i=0;
-        int capital1=100000;
+        int capital1=20000;
 
         while(i<=n)
         {
