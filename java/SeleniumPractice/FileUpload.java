@@ -15,6 +15,7 @@ public class FileUpload {
 		driver.findElement(By.name("files[]")).sendKeys("/Users/NaveenKhunteta/Desktop/Extent.html");
 		
 		//adding comment 
+		//updated
 		
 		
 	}
